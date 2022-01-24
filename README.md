@@ -4,11 +4,12 @@
 
 Als je in een team complexere Python programmas maakt is het handig een paar truukjes te leren. Deze komen in Blok C van SD ook terug, maar dan in Java. 
 
-Drie dingen zijn dan handig:
+Vier dingen zijn dan handig:
 
 1. Eigen Python modules
 2. Andermans Python modules
 3. Unit tests (lees: 'module tests')
+4. Een tooltje om alles bij elkaar te houden
 
 Een module is hier niets meer of minder dan wat python code waarvan je wilt dat anderen het kunnen gebruiken.
 
@@ -68,3 +69,11 @@ De `main.py` is het opstartpunt van de applicatie. Die importeert zowel onze mod
 ### Modules testen
 
 Als andere mensen jouw modules gebruiken is het wel handig als je zeker weet dat ze het doen. Daarom is het aan te raden kleine oefeningen (tests) voor je code te schrijven en die geregeld te draaien om te dubbelchecken of je per ongeluk iets stuk hebt gemaakt.
+
+### Dus wat is nou een Virtual Environment?
+
+Als je meerdere Python projecten op je computer hebt, dan zullen ze allemaal net iets andere modules van anderen nodig hebben.
+
+Een virtual-environment is een soort kopietje van je Python installatie (kijk maar in de Scripts folder), die er voor zorgt dat elk project waar je aan werkt netjes van elkaar gescheiden is.
+
+Zo heb je een grotere kans dat je Python project het op andermans computer hetzelfde doet als op de jouwe.
